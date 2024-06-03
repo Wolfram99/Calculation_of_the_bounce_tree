@@ -39,36 +39,3 @@ public class RestControllerApi {
     }
 
 }
-
-
-//    @PostMapping()
-//    public ResponseEntity<Transport> create(@RequestBody TransportDTO dto){
-//        return new ResponseEntity<>(transpotService.create(dto), HttpStatus.OK);
-//    }
-//
-//    @GetMapping()
-//    public ResponseEntity<List<Transport>> readAll(){
-//        return new ResponseEntity<>(transpotService.readAll(), HttpStatus.OK);
-//    }
-//
-//    @GetMapping("/{id}")
-//    public ResponseEntity<Transport> readById(@PathVariable("id") Long id){
-//        return new ResponseEntity<>(transpotService.readById(id), HttpStatus.OK);
-//    }
-//
-//    @PutMapping()
-//    public ResponseEntity<Transport> update(@RequestBody Transport transport){
-//        return new ResponseEntity<>(transpotService.update(transport), HttpStatus.OK);
-//    }
-//
-//    @DeleteMapping("/{id}")
-//    public HttpStatus deleteById(@PathVariable("id") Long id){
-//        transpotService.deleteById(id);
-//        return HttpStatus.OK;
-//    }
-//
-//    @PatchMapping("/chlen")
-//    public String hui(){
-//        return "соси мой хуй 152 раза!!!!!!!!!!!!";
-//
-//    }
