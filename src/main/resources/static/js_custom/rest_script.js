@@ -26,6 +26,7 @@ async function parseAmount(object) {
     // return temp;
 
     sum_refusal = await  getResult(object);
+    alert('Сумма отказов: '+sum_refusal);
     document.getElementById('Result').value = sum_refusal;
 }
 
