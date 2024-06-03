@@ -26,6 +26,4 @@ public class Refusal {
     private Double lambda;
     @Column(name = "unit")
     private String unit;
-    @Column(name = "value")
-    private Integer value;
 }
