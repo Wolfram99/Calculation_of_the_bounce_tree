@@ -18,12 +18,15 @@ async function getResult(object) {
 }
 
 async function parseAmount(object) {
-    var temp = await getResult(object);
-    console.log(temp);
+    // var temp = await getResult(object);
+    // console.log(temp);
 
-    var h = document.getElementById("Result");
-    h.value = temp;
+    // var h = document.getElementById("Result");
+    // h.value = temp;
     // return temp;
+
+    sum_refusal = await  getResult(object);
+    document.getElementById('Result').value = sum_refusal;
 }
 
 // Отрисовка таблицы и прас get запроса v0.2
