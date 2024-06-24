@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Описание автора</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/5.3.2/css/bootstrap.min.css}"/> 			<!-- Import Bootstrap CSS Style -->
+    <link rel="stylesheet" type="text/css" th:href="@{/css_custom/css_custom.css}">
+</head>
+<header th:replace="~{fragment/headerFragment :: header}"></header>
+<body>
+
+<div class="container">
+    <main>
+
+
+        <!-- Картинка и текст -->
+        <div class="py-5 text-center">
+            <h2>Описание автора</h2>
+            <p class="lead">
+                Простой тест для корректного отображения текста Информация!!! СЮДА ПИСАТЬ СВОЙ ТЕКСТ
+            </p>
+        </div>
+
+    </main>
+</div>
+</body>
+<script type="text/javascript" th:src="@{/webjars/bootstrap/5.3.2/js/bootstrap.bundle.min.js}"></script>
+</html>

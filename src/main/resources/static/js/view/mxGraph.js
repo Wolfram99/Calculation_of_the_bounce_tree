@@ -2542,6 +2542,7 @@ mxGraph.prototype.cellLabelChanged = function(cell, value, autoSize)
 		if (autoSize)
 		{
 			this.cellSizeUpdated(cell, false);
+
 		}
 	}
 	finally
@@ -5570,9 +5571,14 @@ mxGraph.prototype.cellSizeUpdated = function(cell, ignoreChildren)
 
 						var width = (bounds.x + bounds.width) / scale - geo.x - tr.x;
 						var height = (bounds.y + bounds.height) / scale - geo.y - tr.y;
+                        console.log(tr);
+                        console.log(scale);
+                        console.log(width);
+                        console.log(height);
 
 						geo.width = Math.max(geo.width, width);
 						geo.height = Math.max(geo.height, height);
+                        geo.height +=10; // Изменение высоты блока для корректного отображения после авто изменения Label!!!
 					}
 				}
 

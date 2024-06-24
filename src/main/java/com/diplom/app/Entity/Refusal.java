@@ -6,8 +6,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.math.BigInteger;
-
 @Entity
 @Data
 @NoArgsConstructor
@@ -26,6 +24,4 @@ public class Refusal {
     private Double lambda;
     @Column(name = "unit")
     private String unit;
-    @Column(name = "value")
-    private Integer value;
 }

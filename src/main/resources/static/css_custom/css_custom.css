@@ -1,0 +1,100 @@
+.custom_pano{
+    overflow:auto;
+    position:relative;
+    width:1100px;
+    height:600px;
+    border:5px solid rgb(128,128,128);
+    background: url('/images/wires-grid.gif') -1px 0px;
+    cursor:crosshair;
+}
+.custom_properties{
+    border: dotted 5px #198754 ;
+    width:425px;
+    height:600px;
+    padding: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    min-height: calc(81vh - 75px);
+}
+
+.container-form {
+    max-width: fit-content;
+    min-height: calc(81vh - 75px);
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.ml-0{
+    margin-left: 0 !important;
+}
+.mr-5p{
+    margin-right: 5%;
+}
+
+
+.m-revert{
+    margin: revert !important;
+}
+.mr-15px{
+    margin-right: 15px;
+}
+.d-f{
+    display: flex;
+}
+
+
+.container-fluid{
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+.navbar-brand img{
+    justify-content: flex-start;
+}
+
+
+.container-fluid p{
+    padding-right: 0px;
+    margin-bottom: 0;
+}
+
+.nav-link{
+    line-height: auto;
+    text-align: center;
+}
+.li_margin{
+    margin: auto;
+}
+
+/* FOOTER */
+.custom-cursor-datalist{
+    cursor: default;
+}
+
+.filter-color{
+    filter: invert(120%) sepia(23%) saturate(2276%) hue-rotate(44deg) brightness(80%) contrast(150%);
+}
+
+
+

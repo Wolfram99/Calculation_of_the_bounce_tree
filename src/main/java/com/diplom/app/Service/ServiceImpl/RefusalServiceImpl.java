@@ -22,7 +22,4 @@ public class RefusalServiceImpl implements RefusalService {
         return refusalRepository.findAll();
     }
 
-    public Refusal findById(Long id){
-        return refusalRepository.findById(id).get();
-    }
 }

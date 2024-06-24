@@ -7,5 +7,4 @@ import java.util.List;
 public interface RefusalService {
 
     List<Refusal> findAll();
-    Refusal findById(Long id);
 }
